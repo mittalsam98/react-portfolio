@@ -1,0 +1,32 @@
+.box{
+    margin:15px;
+    /* box-shadow: 10px 10px 20px rgba(244,241,241,1) inset ; */
+    /* border-radius:6px; */
+    animation-name: text;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+
+}
+.About{
+    margin-left:20px;
+    padding:20px;
+}
+
+.head{
+    display: inline-block;
+    padding:0px 12px;
+    background-color:#fff;
+    border-radius:5px;
+    margin-left:30px;
+    position: relative;
+    top:35px
+}
+
+  
+  @keyframes text{
+    from{transform: translateX(-30px);
+        opacity:0.5;
+    }
+    /* to{opacity: 1;} */
+  }
+  

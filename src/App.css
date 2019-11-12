@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+.App {
+  height:730px;
+  display:grid;
+  grid-template-columns: 280px 1fr;
+  font-family: 'Noto Serif', serif;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+
+}
+.side{
+  height:730px;
+  overflow: scroll ;
+}
+.main{
+  height:730px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+p{
+    color:rgb(105, 105, 102);
+ font-weight: lighter;
+}
+

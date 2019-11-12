@@ -1,0 +1,31 @@
+.box{
+    margin:15px;
+    /* box-shadow: 10px 10px 20px rgba(244,241,241,1) inset ;
+    border-radius:6px; */
+    animation-name: text;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+}
+.Education {
+    /* background-color:rgba(220, 220,220, 0.3); */
+    border-radius:3px;
+    margin-left:20px;
+    padding:20px;
+
+}
+
+.head{
+    display: inline-block;
+    padding:0px 12px;
+    background-color:#fff;
+    border-radius:5px;
+    margin-left:30px;
+    position: relative;
+    top:35px
+}
+@keyframes text{
+    from{transform: translateX(-30px);
+        opacity:0.1;
+    }
+    /* to{opacity: 1;} */
+  }
