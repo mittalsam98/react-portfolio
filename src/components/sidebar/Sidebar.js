@@ -24,11 +24,11 @@ class Sidebar extends Component {
                         </div>
                         <div class="flip-card-back">
                             <ul className="sidebar-nav">
-                                <li className="sidebar-nav-icons"> <a href="#" className="fa fa-twitter fa-lg"></a></li>
-                                <li className="sidebar-nav-icons"><a href="#" class="fa fa-linkedin fa-lg"></a></li>
-                                <li className="sidebar-nav-icons"> <a href="#" class="fa fa-facebook fa-lg"></a></li>
-                                <li className="sidebar-nav-icons"> <a href="#" class="fa fa-instagram fa-lg"></a></li>
-                                <li className="sidebar-nav-icons"> <a href="#" class="fa fa-github fa-lg"></a></li>
+                                <li className="sidebar-nav-icons"> <a href="https://twitter.com/Sachin_Mittal98" target="_blank" className="fa fa-twitter fa-lg"></a></li>
+                                <li className="sidebar-nav-icons"><a href="https://www.linkedin.com/in/sachin-mittal-476174158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoRhF2EUsQJ%2BygJpLEZb%2FFA%3D%3D" target="_blank" class="fa fa-linkedin fa-lg"></a></li>
+                                <li className="sidebar-nav-icons"> <a href="https://www.facebook.com/profile.php?id=100011989067867" target="_blank" class="fa fa-facebook fa-lg"></a></li>
+                                <li className="sidebar-nav-icons"> <a href="https://www.instagram.com/decent_sachin.mittal/" target="_blank" class="fa fa-instagram fa-lg"></a></li>
+                                <li className="sidebar-nav-icons"> <a href="https://github.com/mittalsam98" target="_blank" class="fa fa-github fa-lg"></a></li>
                             </ul>
                         </div>
                     </div>
