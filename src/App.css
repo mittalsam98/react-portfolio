@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .App {
   height:730px;
   display:grid;
   grid-template-columns: 280px 1fr;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.3em;
   letter-spacing: 0.05em;
 

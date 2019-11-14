@@ -7,9 +7,14 @@
 .sidebar > h1 {
     padding-top: 50px;
     text-align: center;
-    font-family: 'Aclonica', sans-serif;
 }
 
+.h1_links{
+  text-decoration: none;
+  font-family: 'Aclonica', sans-serif;
+  color:#000;
+  font-size:33px;
+}
 .sidebar > p {
     margin-top: 50px;
     text-align: center;
@@ -21,6 +26,12 @@
 }
 .sidebar-nav-items{
     margin-bottom: 15px;
+}
+.links{
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color:#000;
+  font-size: larger;
 }
 .sidebar-nav-icons{
     margin-bottom: 15px;

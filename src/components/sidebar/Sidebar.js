@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Sidebar.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 // import pic from '../images'
 
@@ -8,11 +9,12 @@ class Sidebar extends Component {
 
         return (
             <div className="sidebar">
-                <h1 >Sachin Mittal</h1>
+                <h1><Link smooth to="/#start" className="h1_links">Sachin Mittal</Link></h1>
                 <p style={{color:'black',fontWeight:'bold'}}><i className="fa fa-envelope"> mittalsam98@gmail.com </i></p>
                 <ul className="sidebar-nav">
-                    <li className="sidebar-nav-items">Introduction</li>
-                    <li className="sidebar-nav-items"><a >About</a></li>
+                    <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About</Link></li>
+                    <li className="sidebar-nav-items"><Link smooth to="/#education" className="links" >Education</Link></li>
+                    <li className="sidebar-nav-items"><Link smooth to="/#interest" className="links">Interest</Link></li>
                 </ul>
                 <div class="flip-card">
                     <div class="flip-card-inner">

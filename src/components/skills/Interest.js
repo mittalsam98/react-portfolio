@@ -4,7 +4,7 @@ import classes from './Interest.module.css';
 class Interest extends Component {
     render() {
         return (
-            <div className={classes.box}>
+            <div className={classes.box} id="interest">
                 <h2  className={classes.head}>Interest</h2>
                 <div className={classes.Interest}>
                     <div className={classes.web}>

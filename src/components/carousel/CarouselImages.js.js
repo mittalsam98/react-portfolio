@@ -11,7 +11,7 @@ import Smiley from '../images/Smiley.jpg'
  class CarouselImages extends Component {
      render(){
     return (
-        <div className={classes.carousel_container}>
+        <div className={classes.carousel_container} id="start">
             <Carousel className={classes.carousel} dynamicHeight infiniteLoop interval={6000} transitionTime={1700} emulateTouch showArrows={false} autoPlay  showStatus={false} showThumbs={false} >
                 <div  className={classes.image_container} >
                     <img className={classes.image} src={Hello} />
