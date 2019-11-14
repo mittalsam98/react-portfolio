@@ -6,7 +6,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Hello from '../images/Hello.jpg'
 import Pencil from '../images/Pencil.jpg'
 import laptop1 from '../images/laptop1.jpg'
-import Smiley from '../images/Smiley.jpg'
 
  class CarouselImages extends Component {
      render(){
