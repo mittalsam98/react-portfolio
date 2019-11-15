@@ -36,6 +36,7 @@
 
 }
 .app{
+        height:180px;
    border:1px  black;
    border-bottom:2px solid yellow ;
    text-align: center;
@@ -44,6 +45,7 @@
     top:-20px;
 }
 .other{
+    height:180px;
    border:1px  black;
    border-bottom:2px solid blue;
    text-align: center;
