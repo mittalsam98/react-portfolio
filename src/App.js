@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import ScrollableAnchor from 'react-scrollable-anchor'
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+// import ScrollableAnchor from 'react-scrollable-anchor';
 import {BrowserRouter as Router} from 'react-router-dom';
  import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
@@ -17,7 +17,15 @@ class App extends Component {
     <Router>
       <div className="App">
           <div className="side">
-            <Sidebar />
+            {/* <Sidebar /> */}
+            <nav className="navbar side navbar-expand-lg navbar-light p-0" >
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style={{zIndex:'1'}}>
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <Sidebar />
+              </div>
+            </nav>  
           </div>
             <div className="main">
                  <CarouselImages />

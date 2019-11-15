@@ -13,20 +13,20 @@ import laptop1 from '../images/laptop1.jpg'
         <div className={classes.carousel_container} id="start">
             <Carousel className={classes.carousel} dynamicHeight infiniteLoop interval={6000} transitionTime={1700} emulateTouch showArrows={false} autoPlay  showStatus={false} showThumbs={false} >
                 <div  className={classes.image_container} >
-                    <img className={classes.image} src={Hello} />
+                    <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Sachin</h1>
                     </div>
                 </div>
                 <div className={classes.image_container}>
-                    <img className={classes.image} src={Pencil} />
+                    <img className={classes.image} src={Pencil} alt="myImage"/>
                     <div  className={classes.h2}> 
                     <h1> I love building</h1>
                     <h1>THINGS!!</h1>
                     </div>
                 </div>
                 <div className={classes.image_container}>
-                    <img className={classes.image} src={laptop1} />
+                    <img className={classes.image} src={laptop1} alt="myImage"/>
                     <div  className={classes.h1}> 
                     </div>
                 </div>

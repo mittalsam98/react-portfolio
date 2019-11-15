@@ -2,9 +2,9 @@
     margin:15px;
     /* box-shadow: 10px 10px 20px rgba(244,241,241,1) inset ;
     border-radius:6px; */
-    animation-name: text;
+    /* animation-name: text;
     animation-duration: 5s;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; */
 }
 .Education {
     /* background-color:rgba(220, 220,220, 0.3); */
@@ -20,8 +20,15 @@
     background-color:#fff;
     border-radius:5px;
     margin-left:30px;
-    position: relative;
-    top:35px
+}
+p>a{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover{
+color:rgb(121, 189, 252);
+text-decoration: none;
 }
 @keyframes text{
     from{transform: translateX(-30px);
@@ -29,3 +36,10 @@
     }
     /* to{opacity: 1;} */
   }
+
+  
+  @media (max-width:992px){
+    .box{
+        text-align: center;
+    }
+}

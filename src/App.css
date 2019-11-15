@@ -1,24 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .App {
-  height:730px;
+  height:715px;
   display:grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 1fr 4fr;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.3em;
   letter-spacing: 0.05em;
 
 }
-.side{
-  height:730px;
-  overflow: scroll ;
-}
+
 .main{
-  height:730px;
+  /* height:730px; */
   overflow: scroll;
   overflow-x: hidden;
 }
 p{
-    color:rgb(105, 105, 102);
+ color:rgb(105, 105, 102);
  font-weight: lighter;
 }
 
+
+/*//////////////// Media Query/////////////////*/
+@media (max-width:992px){
+  .App{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  h2{
+    font-weight: bold;
+  }
+  p{
+    font-weight: bolder;
+  }
+  .main{
+    margin-top: -40px;
+  }
+}
+
+@media (max-width:769px){
+  .App{
+     display: flex;
+    flex-direction: column;
+
+  }
+  /* .main{
+    overflow: auto;
+    overflow-x: hidden;
+  } */
+
+}

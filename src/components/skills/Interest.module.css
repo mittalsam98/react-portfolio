@@ -2,9 +2,9 @@
     margin:15px;
     /* box-shadow: 10px 10px 20px rgba(244,241,241,1) ; */
     border-radius:6px;
-    animation-name: text;
+    /* animation-name: text;
     animation-duration: 7s;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; */
 }
 .head{
     display: inline-block;
@@ -28,6 +28,7 @@
 }
 
 .web{
+    height:180px;
    border:1px  black;
    border-bottom:2px solid red;
    text-align: center;
@@ -55,3 +56,32 @@
         opacity:0;
     }
   }
+
+/*///////// Media Query //////////////*/
+
+@media (max-width:769px){
+    .box{
+        text-align: center;
+    }
+    .Interest {
+        grid-template-columns: 1fr 1fr;
+    }
+    .app{
+        margin-top:20px;
+        height:180px;
+         /* position: static; */
+     }
+     .other{
+        margin-top:20px;
+        height:180px; 
+     }
+}
+
+@media (max-width:392px){
+    .Interest {
+        grid-template-columns: 1fr;
+    }
+    .app{
+         position: static;
+     }
+}

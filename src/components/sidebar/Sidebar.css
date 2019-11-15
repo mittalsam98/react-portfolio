@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
 .sidebar{
-    height:99.7vh;
-    margin-top: -20px;
+    height:105vh;
+    margin-top: -40px;
+    width:100%;
     background-color: rgba(225, 239, 239,0.5);
 }
 .sidebar > h1 {
@@ -13,7 +14,7 @@
   text-decoration: none;
   font-family: 'Aclonica', sans-serif;
   color:#000;
-  font-size:33px;
+  font-size:32px;
 }
 .sidebar > p {
     margin-top: 50px;
@@ -36,71 +37,62 @@
 .sidebar-nav-icons{
     margin-bottom: 15px;
 }
-.flip-card {
-    background-color: transparent;
-    width: 200px;
-    margin: auto;;
-    margin-top: 30px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-.flip-card-items{
-  margin-top:70px;
-  line-height: 3em;
-  letter-spacing: 0em;
+
+.flip-card-back{
+  margin-top:50px;
 }
 .fa-lg{
   text-decoration: none;
   color:red;
 }
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    font-size: 28px;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    /* background-color: dodgerblue; */
-    color: white;
-    transform: rotateY(180deg);
-  }
-  
-  
-a{
-    display:block;
-}
 
-ul{
-    list-style: none;
+.links:hover{
+ color:rgb(121, 189, 252)
+ 
 }
+.fas:hover{
+  color:rgb(41, 152, 255)
+  
+ }
+ ul{
+   list-style: none;
+ }
 
-small{
-    font-size: 15px;
-    display:none;
+ /*//////////////media ////////////////////*/
+ @media (max-width:980px){
+  .h1_links{
+    font-size:29px;
+  }
+ }
+
+
+@media (max-width:768px){
+  .h1_links{
+    font-size:28px;
+  }
+  .links{
+display:none;
+  }
+  .fas{
+    transform: scale(1.3);
+    margin:5px 0px;
+  }
+ .gmail{
+   font-size:16px;  
+   font-weight: normal;
+ }
+}
+ 
+@media (max-width:370px){
+  .h1_links{
+    font-size:24px;
+  }
+  .links{
+    font-size: 16px;
+  }
+  .fas{
+    transform: scale(1.1);
+    margin:5px 0px;
+  }
+
 }

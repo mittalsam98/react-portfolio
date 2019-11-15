@@ -2,9 +2,10 @@
     margin:15px;
     /* box-shadow: 10px 10px 20px rgba(244,241,241,1) inset ; */
     /* border-radius:6px; */
-    animation-name: text;
+    /* animation-name: text;
     animation-duration: 3s;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-out; */
+    margin-top: 40px;
 
 }
 .About{
@@ -18,8 +19,6 @@
     background-color:#fff;
     border-radius:5px;
     margin-left:30px;
-    position: relative;
-    top:35px
 }
 
   
@@ -30,3 +29,9 @@
     /* to{opacity: 1;} */
   }
   
+
+  @media (max-width:992px){
+    .box{
+        text-align: center;
+    }
+}
