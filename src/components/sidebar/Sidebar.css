@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
 .sidebar{
-    height:105vh;
-    margin-top: -40px;
+    height:106.5vh;
+    margin-top: -50px;
     width:100%;
-    background-color: rgba(225, 239, 239,0.5);
+    background-color:#f2f3f7;
+    overflow-y: scroll;
+
 }
 .sidebar > h1 {
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -47,12 +49,13 @@
 }
 
 .links:hover{
- color:rgb(121, 189, 252)
- 
+ /* color:rgb(121, 189, 252); */
+ color:rgb(121, 189, 252);
+ text-decoration: underline;
 }
 .fas:hover{
-  color:rgb(41, 152, 255)
-  
+  color:rgb(41, 152, 255);
+  text-decoration: underline;
  }
  ul{
    list-style: none;

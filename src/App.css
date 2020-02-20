@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .App {
-  height:715px;
+  height:710px;
   display:grid;
   grid-template-columns: 1fr 4fr;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand',Arial, sans-serif;
   line-height: 1.3em;
-  letter-spacing: 0.05em;
-
+  letter-spacing: 0.04em;
 }
-
+.side{
+width:300px;
+}
 .main{
-  /* height:730px; */
   overflow: scroll;
   overflow-x: hidden;
 }
+
 p{
- color:rgb(105, 105, 102);
- font-weight: lighter;
+  color: rgba(0, 0, 0, 0.7);
+ font-weight: normal;
 }
 
 
 /*//////////////// Media Query/////////////////*/
+
+
 @media (max-width:992px){
   .App{
     height:100%;
@@ -35,6 +38,7 @@ p{
   }
   .main{
     margin-top: -40px;
+    overflow-y: hidden;
   }
 }
 
@@ -44,9 +48,9 @@ p{
     flex-direction: column;
 
   }
-  /* .main{
+  .main{
     overflow: auto;
     overflow-x: hidden;
-  } */
+  }
 
 }
