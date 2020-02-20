@@ -63,6 +63,9 @@
 
  /*//////////////media ////////////////////*/
  @media (max-width:980px){
+  .sidebar{
+    width:106vw;
+  }
   .h1_links{
     font-size:29px;
   }
@@ -70,6 +73,9 @@
 
 
 @media (max-width:768px){
+  .sidebar{
+    width:106vw;
+  }
   .h1_links{
     font-size:28px;
   }
@@ -87,6 +93,9 @@ display:none;
 }
  
 @media (max-width:370px){
+  .sidebar{
+    width:106vw;
+  }
   .h1_links{
     font-size:24px;
   }

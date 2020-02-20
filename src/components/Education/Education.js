@@ -16,7 +16,7 @@ class Education extends Component {
                             <div className={classes.row}>
                                 <div className={classes.row_md_12}>
                                     <div className={classes.timeline_centered}>
-                    <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2' animateOnce="true" initiallyVisible ={true}>
+                                    <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                         <article className={classes.timeline_entry}>
                                             <div className={classes.timeline_icon} >
                                             <MdSchool />
@@ -27,7 +27,7 @@ class Education extends Component {
                                             </div>
                                         </article>
                                         </ScrollAnimation>
-                    <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='3' animateOnce="true" initiallyVisible ={true}>
+                                        <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                                         <article>
                                             <div className={classes.timeline_icon_2} >
                                                 <FaSchool />     
@@ -44,14 +44,6 @@ class Education extends Component {
                             </div>
                         </div>
                     </section>
-                        {/* <div className={classes.Education}>
-                        <h2 className={classes.heading}>Graduation</h2>
-                        <p>Currently pursuing Bachelor of Technolgy 3rd year from <a href="http://sliet.ac.in/">Sant Longowal Institute of Engineerng and Technolgy</a> in Computer Science and Engineering. </p>
-                        <h4>Senior Secondary</h4>
-                        <p>Passed with 85% from CBSE board from Hare Krishna International Senior Secondary School. </p>
-                        <h4>10th</h4>
-                        <p>Passed with 9.8 cgpa from CBSE board from GVM Public School. </p>
-                        </div> */}
                     </ScrollAnimation>
                 </div>
      

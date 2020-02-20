@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import classes from './CarouselImages.module.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css"; 
 import {GoProject} from 'react-icons/go'
 import {FaArrowCircleDown} from 'react-icons/fa'

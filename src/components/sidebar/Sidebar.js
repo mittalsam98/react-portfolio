@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
-// import pic from '../images'
-
 class Sidebar extends Component {
     render() {
 

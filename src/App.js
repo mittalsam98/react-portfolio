@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import './App.css';
-// import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-// import ScrollableAnchor from 'react-scrollable-anchor';
 import {BrowserRouter as Router} from 'react-router-dom';
  import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
