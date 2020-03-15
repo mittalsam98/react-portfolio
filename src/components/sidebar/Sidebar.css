@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400&display=swap');
 .sidebar{
-    height:106.5vh;
-    margin-top: -50px;
+    height:100vh;
+    /* margin-top: -50px; */
     width:100%;
     background-color:#f2f3f7;
     overflow-y: scroll;
-
+     text-align: center;
 }
 .sidebar > h1 {
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -19,22 +20,31 @@
   font-size:32px;
 }
 .sidebar > p {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .sidebar-nav{
     margin-left: -30px;
+    margin-top: 30px;
     text-align: center;
 }
 .sidebar-nav-items{
     margin-bottom: 15px;
 }
+.sidebar>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
 .links{
   text-decoration: none;
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Comfortaa', cursive;
   color:#000;
   font-size: larger;
+  line-height: 1.4rem;
 }
 .sidebar-nav-icons{
     margin-bottom: 15px;
@@ -60,7 +70,9 @@
  ul{
    list-style: none;
  }
-
+  .h1_links:hover{
+  color: #000;
+ }
  /*//////////////media ////////////////////*/
  @media (max-width:980px){
   .sidebar{

@@ -14,7 +14,7 @@ class Interest extends Component {
                    <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
                     <div className={classes.web}>
                     <h3>Other's Interest</h3>
-                      <p>I also have decent hand in developing website with WordPress. Adobe Photoshop, MS Office, C++,Github,Java</p>
+                      <p>I also have decent hand in developing website with WordPress. Adobe Photoshop, Adobe Illustrator, MS Office, C++, Github</p>
                     </div>
                     </ScrollAnimation>
                     <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}>
