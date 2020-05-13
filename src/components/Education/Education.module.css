@@ -1,11 +1,6 @@
 .box{
     margin:15px;
     margin-top:50px;
-    /* box-shadow: 10px 10px 20px rgba(244,241,241,1) inset ;
-    border-radius:6px; */
-    /* animation-name: text;
-    animation-duration: 5s;
-    animation-timing-function: ease-out; */
 }
 .head{
     display: inline-block;
@@ -16,14 +11,7 @@
     letter-spacing: 5px;
     font-size: 11px;
 }
-/* .Education {
-    background-color:rgba(220, 220,220, 0.3);
-    border-radius:3px;
-    padding:20px;
-    background:  rgb(242, 243, 247);
-    margin-left:30px;
 
-} */
 
 .container{
     width: 100%;
@@ -71,13 +59,12 @@
     width: 40px;
     font-size:20px;
     height: 40px;
-    background: #2fa499;
+background-color: #f9bf3f;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
-    vertical-align: center;
     -moz-box-shadow: 0 0 0 5px #f2f3f7;
     -webkit-box-shadow: 0 0 0 5px #f2f3f7;
     box-shadow: 0 0 0 5px #f2f3f7;
@@ -85,22 +72,13 @@
     float: left;
 }
 .timeline_icon_2 {
-    display: block;
-    width: 40px;
-    font-size:20px;
-    height: 40px;
-    background: #a84cb8;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    text-align: center;
-    -moz-box-shadow: 0 0 0 5px #f2f3f7;
-    -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-    box-shadow: 0 0 0 5px #f2f3f7;
-    line-height: 35px;
-    float: left;
+    background: #DE1DB4;
 }
+
+.timeline_icon_4{
+    background: #2fa499;
+}
+
 .timeline_entry_inner {
     position: relative;
     top:0px;
