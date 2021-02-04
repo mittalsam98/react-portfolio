@@ -16,7 +16,7 @@ class Sidebar extends Component {
                     <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About</Link></li>
                     <li className="sidebar-nav-items"><Link smooth to="/#education" className="links" >Education</Link></li>
                     <li className="sidebar-nav-items"><Link smooth to="/#interest" className="links">Interest</Link></li>
-                    <li className="sidebar-nav-items"><a href="http://blogs.thesachin.in" target="" rel="opener noreferrer" className="links">Blogs  <FiExternalLink/></a></li>
+                    {/* <li className="sidebar-nav-items"><a href="http://www.bloggingpeek.com" target="_blank" rel="opener noreferrer" className="links"> Blog<FiExternalLink/></a></li> */}
                 </ul>
     
                 <div className="flip-card-back">
