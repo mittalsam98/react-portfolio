@@ -5,7 +5,7 @@
 .head{
     display: inline-block;
     padding:0px 12px;
-    color: rgb(153, 153, 153);
+    color: rgb(85, 85, 85);
     margin-bottom: 20px;
     margin-left:30px;
     letter-spacing: 5px;
@@ -74,9 +74,12 @@ background-color: #f9bf3f;
 .timeline_icon_2 {
     background: #DE1DB4;
 }
+.timeline_icon_5 {
+    background: #00ffff;
+}
 
 .timeline_icon_4{
-    background: #2fa499;
+    background: #ff0040;
 }
 
 .timeline_entry_inner {
