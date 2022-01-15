@@ -20,7 +20,7 @@
 .head{
     display: inline-block;
     padding:0px 12px;
-    color: rgb(153, 153, 153);
+    color: rgb(85, 85, 85);
     margin-bottom: 20px;
     margin-left:30px;
     letter-spacing: 5px;
@@ -115,7 +115,6 @@ div>p{
      }
      .other{
         margin-top:20px;
-        height:180px; 
      }
 }
 
