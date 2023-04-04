@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* .h1 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -270px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.h2 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -470px;
+  left: -20px;
+  text-align: right;
+  color: black;
+}
+
+.h1 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+}
+.h2 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+} */
+
+/* @keyframes text {
+  from {
+    transform: translateY(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .image {
+    height: 600px;
+  }
+  .h1 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+  }
+  .h2 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+    position: relative;
+    top: 20px;
+    left: 17px;
+  }
+} */
+
+.box {
+  margin: 15px;
+  margin-top: 40px;
+}
+.head {
+  display: inline-block;
+  padding: 0px 12px;
+  color: rgb(85, 85, 85);
+  margin-bottom: 20px;
+  margin-left: 30px;
+  letter-spacing: 5px;
+  font-size: 11px;
+}
+
+.heading {
+  padding: 0px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 4rem 2vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 2.4px 2.4px 3.2px;
+}
+
+.card__image {
+  width: 100%;
+  min-height: 300px;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* border-radius: calc(var(--curve) * 1px); */
+  background-color: #22223b;
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  padding: 2em;
+  background-color: #22223b;
+  transform: translateY(-100%);
+  transition: 0.2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 76px;
+  position: absolute;
+  bottom: 99%;
+  right: 0;
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: #22223b;
+  d: path('M 40 80 c 22 0 40 -22 40 -40 v 40 Z');
+}
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__title {
+  font-size: 1rem;
+  margin: -10px 0 0.3em;
+  color: #fff;
+}
+
+.card__status {
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #fff;
+  font-family: 'MockFlowFont';
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
