@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+.image {
+  height: 734px;
+}
+
+.h1 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -270px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.h2 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -470px;
+  left: -20px;
+  text-align: right;
+  color: black;
+}
+
+.h1 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+}
+.h2 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: 'Permanent Marker', cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(to left, rgba(75, 19, 79, 0.8), rgba(201, 75, 75, 0.6));
+}
+.secondButton {
+  margin-top: 30px;
+}
+@keyframes text {
+  from {
+    transform: translateY(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .image {
+    height: 600px;
+  }
+  .h1 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+  }
+  .h2 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+    position: relative;
+    top: 20px;
+    left: 17px;
+  }
+}
