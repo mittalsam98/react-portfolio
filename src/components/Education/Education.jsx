@@ -19,7 +19,7 @@ class Education extends Component {
         >
           <span className={classes.head}>MY JOURNEY</span>
           <section className={classes.container}>
-            <div className={classes.container_content}>
+            <div>
               <div className={classes.row}>
                 <div className={classes.row_md_12}>
                   <div className={classes.timeline_centered}>

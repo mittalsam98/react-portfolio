@@ -7,28 +7,35 @@ import { GoProject } from 'react-icons/go';
 import { FaArrowCircleDown } from 'react-icons/fa';
 import Hello from '../images/Hello.jpg';
 import Pencil from '../images/Pencil.jpg';
+import { motion } from 'framer-motion/dist/framer-motion';
 
-class CarouselImages extends Component {
-  render() {
-    return (
-      <div className={classes.carousel_container} id='start'>
-        <Carousel
-          className={classes.carousel}
-          dynamicHeight
-          infiniteLoop={true}
-          interval={6000}
-          useKeyboardArrows={true}
-          transitionTime={1700}
-          emulateTouch
-          showArrows={false}
-          autoPlay
-          showStatus={false}
-          showThumbs={false}
-        >
-          <div className={classes.image_container}>
-            <img className={classes.image} src={Hello} alt='myImage' />
-            <div className={classes.h1}>
-              <h1>I'm Sachin</h1>
+export default function CarouselImage() {
+  return (
+    <div id='start'>
+      <Carousel
+        dynamicHeight
+        infiniteLoop={true}
+        interval={6000}
+        useKeyboardArrows={true}
+        transitionTime={1700}
+        emulateTouch
+        showArrows={false}
+        autoPlay
+        showStatus={false}
+        showThumbs={false}
+      >
+        <div>
+          <img className={classes.image} src={Hello} alt='myImage' />
+          <div className={classes.h1}>
+            I'm Sachin
+            <motion.h1
+              initial={{ scale: 1 }}
+              animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
+              transition={{ duration: 3.3, repeat: Infinity }} // Set the duration and repeat
+              whileHover={{
+                scale: 1.1
+              }}
+            >
               <a
                 href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
                 rel='opener noreferrer'
@@ -36,34 +43,33 @@ class CarouselImages extends Component {
               >
                 VIEW CV <FaArrowCircleDown />
               </a>
-            </div>
+            </motion.h1>
           </div>
-          <div className={classes.image_container}>
-            <img className={classes.image} src={Pencil} alt='myImage' />
-            <div className={classes.h2}>
-              <h1> I love building</h1>
-              <h1>THINGS!!</h1>
+        </div>
+        <div>
+          <img className={classes.image} src={Pencil} alt='myImage' />
+          <div className={classes.h2}>
+            <h1> I love building</h1>
+            <h1>THINGS!!</h1>
+            <a
+              href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=javascript&sort=stargazers'
+              rel='opener noreferrer'
+              target='_blank'
+            >
+              VIEW REACT PROJECTS <GoProject />
+            </a>
+            <div className={classes.secondButton}>
               <a
-                href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=javascript&sort=stargazers'
+                href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort='
                 rel='opener noreferrer'
                 target='_blank'
               >
-                VIEW REACT PROJECTS <GoProject />
+                VIEW ANDROID PROJECTS <GoProject />
               </a>
-              <div className={classes.secondButton}>
-                <a
-                  href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort='
-                  rel='opener noreferrer'
-                  target='_blank'
-                >
-                  VIEW ANDROID PROJECTS <GoProject />
-                </a>
-              </div>
             </div>
           </div>
-        </Carousel>
-      </div>
-    );
-  }
+        </div>
+      </Carousel>
+    </div>
+  );
 }
-export default CarouselImages;

@@ -1,4 +1,8 @@
 import React from 'react';
+import 'animate.css/animate.min.css';
+import Tilt from 'react-parallax-tilt';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import classes from './Projects.module.css';
 import bookheap from '../images/bookheap.png';
 import chess from '../images/chess.png';
@@ -7,82 +11,119 @@ import travel from '../images/travel-log.png';
 import definition from '../images/definition.png';
 import memes from '../images/memes.png';
 import superhero from '../images/superhero.png';
-import ScrollAnimation from 'react-animate-on-scroll';
-import 'animate.css/animate.min.css';
+import monorepo from '../images/monorepo.png';
+import challenges from '../images/frontend-challenges.png';
+import github from '../images/github.png';
 
 // Web projects
 const cardItem = [
+  {
+    link: 'https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal',
+    title: 'E-Commerce app',
+    techStack: 'Tech Stack: Monorepo, Typescript, MERN',
+    desc: 'It is a e-commerce app built in a MERN stack using Monorepo. This is 100% typescript.',
+    image: monorepo,
+    color: '#a9def9',
+    githubLink: 'https://github.com/mittalsam98/E-commerce-app'
+  },
+  {
+    link: 'https://frontend-questions.netlify.app/',
+    title: 'Frontend Challenges',
+    techStack: 'Tech Stack: Pure HTML, CSS and JS',
+    desc: 'Frontend challenges in vanilla HTML,CSS and JS',
+    image: challenges,
+    color: '#C1A4AA',
+    githubLink: 'https://github.com/mittalsam98/frontend-challenges'
+  },
   {
     link: 'https://bookheap-app.netlify.app/',
     title: 'Online Book Store',
     techStack: 'Tech Stack: MERN Stack',
     desc: 'It is a book selling web app built in a MERN stack . You can sell books by uploading images and can also see what others are selling.',
-    image: bookheap
+    image: bookheap,
+    color: '#f3e4f1',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=bookheap&type=&language=javascript&sort=stargazers'
   },
   {
     link: 'https://chess-web-online.netlify.app/',
     title: 'Realtime Online Chess',
     techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
     desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess
+    image: chess,
+    color: '#d5ebda',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
   },
   {
     link: 'https://travel-log-frontend-two.vercel.app/',
     title: 'Travel Log',
     techStack: 'Tech Stack- MERN Stack, Mapbox',
     desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel
+    image: travel,
+    color: '#EEA47F',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=travel&type=&language=javascript&sort=stargazers'
   },
   {
     link: 'https://shopnowhere.netlify.app/',
-    title: 'Shopping-Store',
+    title: 'Shopping Store',
     techStack: 'Tech Stack- React, Redux, Formik',
     desc: 'Shopping store built with React and Redux',
-    image: shopping
+    image: shopping,
+    color: '#89ABE3',
+    githubLink: 'https://github.com/mittalsam98/Shopping-Store'
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
     title: 'Definition Finder',
     techStack: 'Tech Stack: Flutter',
     desc: 'Definition Finder is absolutely free online dictionary with every word you look up. Millions of definitions from the most trusted source.',
-    image: definition
+    image: definition,
+    color: '#CBD18F',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort=stargazers'
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.superheroes',
     title: 'My Superhero',
     techStack: 'Tech Stack- Flutter',
     desc: 'My SuperHero app provides all SuperHeroes and Villians data like powerstats, full name from all the universes.',
-    image: superhero
+    image: superhero,
+    color: '#d0f4de',
+    githubLink: 'https://github.com/mittalsam98/super_hero_app'
   },
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.memestemplate',
     title: 'Indian Memes Templates',
     techStack: 'Tech Stack- Flutter',
     desc: ' Indian meme templates - Memeशाला contains a wide range of Indian meme templates including Bollywood, political, Indian shows. You can edit and create memes too.',
-    image: memes
+    image: memes,
+    color: '#e9c46a',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort=stargazers'
   }
 ];
 
 export default function Projects() {
   const getProjectCard = (cardItem) => {
     return (
-      <li>
-        <a href={cardItem.link} className={classes.card} target='_blank'>
-          <img src={cardItem.image} className={classes.card__image} alt='' />
-          <div className={classes.card__overlay}>
-            <div className={classes.card__header}>
-              <svg className={classes.card__arc} xmlns='http://www.w3.org/2000/svg'>
-                <path />
-              </svg>
-              <div className={classes.card__header_text}>
-                <h3 className={classes.card__title}>{cardItem.title}</h3>
-                <span className={classes.card__status}>{cardItem.techStack}</span>
-              </div>
-            </div>
-            <p className={classes.card__description}>{cardItem.desc}</p>
+      <Tilt perspective={900} glareEnable={true} glareMaxOpacity={0.45}>
+        <li style={{ backgroundColor: cardItem.color, borderRadius: '21px' }}>
+          <a href={cardItem.link} className={classes.card} target='_blank'>
+            <img src={cardItem.image} className={classes.card__image} alt='' />
+          </a>
+          <div
+            onClick={() => {
+              window.open(cardItem.githubLink, '_blank');
+            }}
+            className={classes.card__title__container}
+          >
+            <h3 className={classes.card__title}>{cardItem.title}</h3>
+            <img src={github} className={classes.card__title__img} />
           </div>
-        </a>
-      </li>
+        </li>
+      </Tilt>
     );
   };
 
@@ -102,12 +143,6 @@ export default function Projects() {
             return getProjectCard(item);
           })}
         </ul>
-        {/* <h2 className={classes.heading}>ANDROID APP PROJECTS</h2>
-        <ul className={classes.cards}>
-          {cardItemApps.map((item) => {
-            return getProjectCard(item);
-          })}
-        </ul> */}
       </ScrollAnimation>
     </div>
   );

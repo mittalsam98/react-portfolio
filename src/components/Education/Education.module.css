@@ -104,13 +104,6 @@
   float: left;
 }
 
-/* .heading {  
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 1.8;
-} */
 .label {
   position: relative;
   background: #f2f3f7;
@@ -135,8 +128,6 @@
 
 .label p {
   margin-bottom: 1.5em;
-
-  /* margin-left: 200px; */
 }
 
 p > a {
@@ -154,7 +145,6 @@ a:hover {
     transform: translateX(-30px);
     opacity: 0.1;
   }
-  /* to{opacity: 1;} */
 }
 
 @media (max-width: 992px) {

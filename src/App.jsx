@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Sidebar from './components/sidebar/Sidebar';
-import About from './components/about/About';
-import Education from './components/Education/Education';
-import Interest from './components/skills/Interest';
-import Projects from './components/Projects/Projects.js';
-import CarouselImages from './components/Carousel/Carousel';
+import Sidebar from './components/sidebar/Sidebar.jsx';
+import About from './components/about/About.jsx';
+import Education from './components/Education/Education.jsx';
+import Interest from './components/skills/Interest.jsx';
+import Projects from './components/Projects/Projects.jsx';
+import CarouselImages from './components/Carousel/Carousel.jsx';
 
 class App extends Component {
   render() {

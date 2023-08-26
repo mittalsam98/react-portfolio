@@ -33,7 +33,8 @@ class About extends Component {
             <p className={classes.br}>
               I love exploring new technologies and being a practitioner, I like to stay on top of
               latest trends. I try to leave every line of code I write more readable, accessible,
-              and modular.
+              and modular. My problem-solving mindset and active GitHub profile showcase my
+              commitment to innovative and collaborative coding.
             </p>
           </div>
         </ScrollAnimation>
