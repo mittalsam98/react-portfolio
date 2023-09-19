@@ -12,6 +12,8 @@ import definition from '../images/definition.png';
 import memes from '../images/memes.png';
 import superhero from '../images/superhero.png';
 import monorepo from '../images/monorepo.png';
+import courseApp from '../images/courseApp.png';
+import chatGPT from '../images/chatGPT.png';
 import challenges from '../images/frontend-challenges.png';
 import github from '../images/github.png';
 
@@ -23,8 +25,27 @@ const cardItem = [
     techStack: 'Tech Stack: Monorepo, Typescript, MERN',
     desc: 'It is a e-commerce app built in a MERN stack using Monorepo. This is 100% typescript.',
     image: monorepo,
-    color: '#a9def9',
+    color: '#0FFFFF',
     githubLink: 'https://github.com/mittalsam98/E-commerce-app'
+  },
+  {
+    link: 'https://courses-portal.netlify.app/',
+    title: 'Course Selling App',
+    techStack: 'Tech Stack: React JS, Tailwind CSS, Node JS, MongoDB, Razorpay for payments',
+    desc: 'Separate User and Admin panels, User can purchase courses',
+    image: courseApp,
+    color: '#C1A4AA',
+    githubLink: 'https://github.com/mittalsam98/Course-Selling-App'
+  },
+  {
+    link: 'https://chit-chat-gpt-app.vercel.app/',
+    title: 'ChatGPT clone',
+    techStack:
+      'Tech Stack: Next.js 13, Tailwind CSS, Prisma, ZOD for validation, Recoil for state managements, TypeScript, OpenAI',
+    desc: 'Chat GPT clone with signup and signin, previous chat save functionality',
+    image: chatGPT,
+    color: '#FFA6C9',
+    githubLink: 'https://github.com/mittalsam98/chat-gpt-clone'
   },
   {
     link: 'https://frontend-questions.netlify.app/',
@@ -32,8 +53,19 @@ const cardItem = [
     techStack: 'Tech Stack: Pure HTML, CSS and JS',
     desc: 'Frontend challenges in vanilla HTML,CSS and JS',
     image: challenges,
-    color: '#C1A4AA',
+    color: '#a9def9',
     githubLink: 'https://github.com/mittalsam98/frontend-challenges'
+  },
+
+  {
+    link: 'https://chess-web-online.netlify.app/',
+    title: 'Realtime Online Chess',
+    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
+    desc: 'Play real time chess with your friends online by sharing a link.',
+    image: chess,
+    color: '#d5ebda',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
   },
   {
     link: 'https://bookheap-app.netlify.app/',
@@ -44,16 +76,6 @@ const cardItem = [
     color: '#f3e4f1',
     githubLink:
       'https://github.com/mittalsam98?tab=repositories&q=bookheap&type=&language=javascript&sort=stargazers'
-  },
-  {
-    link: 'https://chess-web-online.netlify.app/',
-    title: 'Realtime Online Chess',
-    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
-    desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess,
-    color: '#d5ebda',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
   },
   {
     link: 'https://travel-log-frontend-two.vercel.app/',

@@ -39,10 +39,10 @@ export default function Interest() {
             initiallyVisible={true}
           >
             <div className={classes.app}>
-              <h3>Web Develpoment</h3>
+              <h3>Web Development</h3>
               <p>
                 I am a full stack web developer(MERN) and build websites using HTML, CSS,
-                Javascript, ReactJs.
+                Javascript, ReactJs, Next.js.
                 <br /> I have also good grasp on Node and NoSQL(MongoDb).
               </p>
             </div>
@@ -57,8 +57,8 @@ export default function Interest() {
             <div className={classes.other}>
               <h3>Expanded Expertise</h3>
               <p>
-                TypeScript, UI Libraries (Tailwind, React-Bootstrap, MUI), Next.js Problem-Solving,
-                GitHub, Open to Monorepo architecture.
+                TypeScript, UI Libraries (Tailwind, React-Bootstrap, MUI), Prisma, Problem-Solving,
+                GitHub, Open to Monorepo architecture, Started exploring Open Source Contribution.
               </p>
             </div>
           </ScrollAnimation>
