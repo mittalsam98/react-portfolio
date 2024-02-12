@@ -62,3 +62,9 @@
 .card__title__img {
   height: 20px;
 }
+
+@media (max-width: 450px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
