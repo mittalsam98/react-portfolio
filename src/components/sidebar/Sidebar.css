@@ -99,6 +99,7 @@ ul {
 .icon-img {
   height: 28px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 .icon-img:hover {
   scale: 1.2;

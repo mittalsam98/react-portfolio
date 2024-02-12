@@ -7,7 +7,7 @@ import { GoProject } from 'react-icons/go';
 import { FaArrowCircleDown } from 'react-icons/fa';
 import Hello from '../images/Hello.jpg';
 import Pencil from '../images/Pencil.jpg';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
 
 export default function CarouselImage() {
   return (

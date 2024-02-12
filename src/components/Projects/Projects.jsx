@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css/animate.min.css';
 import Tilt from 'react-parallax-tilt';
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 import classes from './Projects.module.css';
 import bookheap from '../images/bookheap.png';
@@ -12,13 +12,23 @@ import definition from '../images/definition.png';
 import memes from '../images/memes.png';
 import superhero from '../images/superhero.png';
 import monorepo from '../images/monorepo.png';
+import profilee from '../images/profilee.png';
 import courseApp from '../images/courseApp.png';
 import chatGPT from '../images/chatGPT.png';
 import challenges from '../images/frontend-challenges.png';
 import github from '../images/github.png';
 
 // Web projects
-const cardItem = [
+const webItem = [
+  {
+    link: 'https://www.profilee.info/',
+    title: 'Profilee - An OS link in bio',
+    techStack: 'Tech Stack: Next JS, Tailwind, Typescript, Prisma, AWS S3',
+    desc: 'Profilee is an open source profile link bio page builder',
+    image: profilee,
+    color: '#0FFFFF',
+    githubLink: 'https://github.com/mittalsam98/profilee'
+  },
   {
     link: 'https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal',
     title: 'E-Commerce app',
@@ -56,7 +66,6 @@ const cardItem = [
     color: '#a9def9',
     githubLink: 'https://github.com/mittalsam98/frontend-challenges'
   },
-
   {
     link: 'https://chess-web-online.netlify.app/',
     title: 'Realtime Online Chess',
@@ -86,16 +95,10 @@ const cardItem = [
     color: '#EEA47F',
     githubLink:
       'https://github.com/mittalsam98?tab=repositories&q=travel&type=&language=javascript&sort=stargazers'
-  },
-  {
-    link: 'https://shopnowhere.netlify.app/',
-    title: 'Shopping Store',
-    techStack: 'Tech Stack- React, Redux, Formik',
-    desc: 'Shopping store built with React and Redux',
-    image: shopping,
-    color: '#89ABE3',
-    githubLink: 'https://github.com/mittalsam98/Shopping-Store'
-  },
+  }
+];
+
+const androidAppItems = [
   {
     link: 'https://play.google.com/store/apps/details?id=com.thesachin.your_dictionary',
     title: 'Definition Finder',
@@ -151,21 +154,27 @@ export default function Projects() {
 
   return (
     <div className={classes.box} id='projects'>
-      <ScrollAnimation
+      {/* <ScrollAnimation
         offset={0}
         animateIn='fadeInLeft'
         duration={2.4}
         animateOnce={true}
         initiallyVisible={true}
-      >
-        <span className={classes.head}>MY WORK</span>
-        <h2 className={classes.heading}>PROJECTS</h2>
-        <ul className={classes.cards}>
-          {cardItem.map((item) => {
-            return getProjectCard(item);
-          })}
-        </ul>
-      </ScrollAnimation>
+      > */}
+      <span className={classes.head}>MY WORK</span>
+      <h2 className={classes.heading}>WEB APP PROJECTS</h2>
+      <ul className={classes.cards}>
+        {webItem.map((item) => {
+          return getProjectCard(item);
+        })}
+      </ul>
+      <h2 className={classes.heading}>ANDROID APP PROJECTS</h2>
+      <ul className={classes.cards}>
+        {androidAppItems.map((item) => {
+          return getProjectCard(item);
+        })}
+      </ul>
+      {/* </ScrollAnimation> */}
     </div>
   );
 }
