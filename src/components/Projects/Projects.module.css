@@ -57,10 +57,12 @@
   padding: 14px 0px 5px 0px;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .card__title__img {
   height: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 450px) {
