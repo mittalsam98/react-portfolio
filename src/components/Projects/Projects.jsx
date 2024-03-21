@@ -17,6 +17,8 @@ import courseApp from '../images/courseApp.png';
 import chatGPT from '../images/chatGPT.png';
 import challenges from '../images/frontend-challenges.png';
 import github from '../images/github.png';
+import frontenddev from '../images/frontenddev.jpg';
+import jumpstart from '../images/jumpstart.png';
 
 // Web projects
 const webItem = [
@@ -30,12 +32,31 @@ const webItem = [
     githubLink: 'https://github.com/mittalsam98/profilee'
   },
   {
+    link: 'https://react-machine-coding.netlify.app/',
+    title: 'Frontend challenges',
+    techStack: 'Useful repo for most common frontend challenges',
+    desc: 'Technology used: React Js, Mantine UI, Context API',
+    image: frontenddev,
+    color: '#E5E483',
+    githubLink: 'https://github.com/mittalsam98/frontenddev'
+  },
+  {
+    link: 'https://www.saasjumpstart.live/',
+    title: 'Sass Boilerplate',
+    techStack:
+      'Technology used: Typescript, Nextjs, Prisma, Tailwind CSS, AWS S3, React Drag and Drop, Zod',
+    desc: 'Next.js boilerplate setup for the repetitive work. It comes with authentication with email verification, stripe payment integration, customizable components, email preview, and much more.',
+    image: jumpstart,
+    color: '#D2E0FB'
+    // githubLink: 'https://github.com/mittalsam98'
+  },
+  {
     link: 'https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal',
     title: 'E-Commerce app',
     techStack: 'Tech Stack: Monorepo, Typescript, MERN',
     desc: 'It is a e-commerce app built in a MERN stack using Monorepo. This is 100% typescript.',
     image: monorepo,
-    color: '#0FFFFF',
+    color: '#FEA1A1',
     githubLink: 'https://github.com/mittalsam98/E-commerce-app'
   },
   {
@@ -140,12 +161,12 @@ export default function Projects() {
           </a>
           <div
             onClick={() => {
-              window.open(cardItem.githubLink, '_blank');
+              if (cardItem?.githubLink) window.open(cardItem?.githubLink, '_blank');
             }}
             className={classes.card__title__container}
           >
             <h3 className={classes.card__title}>{cardItem.title}</h3>
-            <img src={github} className={classes.card__title__img} />
+            {cardItem?.githubLink && <img src={github} className={classes.card__title__img} />}
           </div>
         </li>
       </Tilt>

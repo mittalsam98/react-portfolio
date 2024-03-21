@@ -3,10 +3,10 @@ import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
 
-import logo from '../images/sam.jpg';
+import logo from '../images/sam.png';
 import github from '../images/github.png';
 import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.jpg';
+import twitter from '../images/twitterx.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 

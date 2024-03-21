@@ -52,11 +52,11 @@ export default function CarouselImage() {
             <h1> I love building</h1>
             <h1>THINGS!!</h1>
             <a
-              href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=javascript&sort=stargazers'
+              href='https://github.com/mittalsam98?tab=repositories&q=&type=public&language=&sort='
               rel='opener noreferrer'
               target='_blank'
             >
-              VIEW REACT PROJECTS <GoProject />
+              VIEW Web PROJECTS <GoProject />
             </a>
             <div className={classes.secondButton}>
               <a
