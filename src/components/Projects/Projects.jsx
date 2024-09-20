@@ -17,11 +17,21 @@ import courseApp from '../images/courseApp.png';
 import chatGPT from '../images/chatGPT.png';
 import challenges from '../images/frontend-challenges.png';
 import github from '../images/github.png';
-import frontenddev from '../images/frontenddev.jpg';
+import frontenddev from '../images/frontenddev.png';
+import solanaaid from '../images/solanaaid.png';
 import jumpstart from '../images/jumpstart.png';
 
 // Web projects
 const webItem = [
+  {
+    link: 'https://www.frontenddev.site/',
+    title: 'Frontend Dev',
+    techStack: 'Useful repo for most common frontend challenges',
+    desc: 'Technology used: React Js, Mantine UI, Context API',
+    image: frontenddev,
+    color: '#E5E483',
+    githubLink: 'https://github.com/mittalsam98/frontenddev'
+  },
   {
     link: 'https://www.profilee.info/',
     title: 'Profilee - An OS link in bio',
@@ -32,15 +42,6 @@ const webItem = [
     githubLink: 'https://github.com/mittalsam98/profilee'
   },
   {
-    link: 'https://react-machine-coding.netlify.app/',
-    title: 'Frontend challenges',
-    techStack: 'Useful repo for most common frontend challenges',
-    desc: 'Technology used: React Js, Mantine UI, Context API',
-    image: frontenddev,
-    color: '#E5E483',
-    githubLink: 'https://github.com/mittalsam98/frontenddev'
-  },
-  {
     link: 'https://www.saasjumpstart.live/',
     title: 'Sass Boilerplate',
     techStack:
@@ -49,6 +50,25 @@ const webItem = [
     image: jumpstart,
     color: '#D2E0FB'
     // githubLink: 'https://github.com/mittalsam98'
+  },
+  {
+    link: 'https://chess-web-online.netlify.app/',
+    title: 'Realtime Online Chess',
+    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
+    desc: 'Play real time chess with your friends online by sharing a link.',
+    image: chess,
+    color: '#d5ebda',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
+  },
+  {
+    link: 'https://solanaaid.now.sh/',
+    title: 'Solana Aid',
+    techStack: 'Tech Stack- Web3, React Js, Tailwind',
+    desc: 'Solana web tools',
+    image: solanaaid,
+    color: '#f3e4f1',
+    githubLink: 'https://github.com/mittalsam98/solanaaid'
   },
   {
     link: 'https://www.youtube.com/watch?v=Dlxz9RnltMA&ab_channel=SachinMittal',
@@ -68,6 +88,17 @@ const webItem = [
     color: '#C1A4AA',
     githubLink: 'https://github.com/mittalsam98/Course-Selling-App'
   },
+
+  {
+    link: 'https://travel-log-frontend-two.vercel.app/',
+    title: 'Travel Log',
+    techStack: 'Tech Stack- MERN Stack, Mapbox',
+    desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
+    image: travel,
+    color: '#EEA47F',
+    githubLink:
+      'https://github.com/mittalsam98?tab=repositories&q=travel&type=&language=javascript&sort=stargazers'
+  },
   {
     link: 'https://chit-chat-gpt-app.vercel.app/',
     title: 'ChatGPT clone',
@@ -79,25 +110,6 @@ const webItem = [
     githubLink: 'https://github.com/mittalsam98/chat-gpt-clone'
   },
   {
-    link: 'https://frontend-questions.netlify.app/',
-    title: 'Frontend Challenges',
-    techStack: 'Tech Stack: Pure HTML, CSS and JS',
-    desc: 'Frontend challenges in vanilla HTML,CSS and JS',
-    image: challenges,
-    color: '#a9def9',
-    githubLink: 'https://github.com/mittalsam98/frontend-challenges'
-  },
-  {
-    link: 'https://chess-web-online.netlify.app/',
-    title: 'Realtime Online Chess',
-    techStack: 'Tech Stack- ReactJs, NodeJS, Express, Socket.io.',
-    desc: 'Play real time chess with your friends online by sharing a link.',
-    image: chess,
-    color: '#d5ebda',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=chess&type=&language=javascript&sort=stargazers'
-  },
-  {
     link: 'https://bookheap-app.netlify.app/',
     title: 'Online Book Store',
     techStack: 'Tech Stack: MERN Stack',
@@ -106,16 +118,6 @@ const webItem = [
     color: '#f3e4f1',
     githubLink:
       'https://github.com/mittalsam98?tab=repositories&q=bookheap&type=&language=javascript&sort=stargazers'
-  },
-  {
-    link: 'https://travel-log-frontend-two.vercel.app/',
-    title: 'Travel Log',
-    techStack: 'Tech Stack- MERN Stack, Mapbox',
-    desc: 'A full stack application to store / list places you have visited. You can log every visit on map.',
-    image: travel,
-    color: '#EEA47F',
-    githubLink:
-      'https://github.com/mittalsam98?tab=repositories&q=travel&type=&language=javascript&sort=stargazers'
   }
 ];
 

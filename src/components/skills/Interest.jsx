@@ -58,7 +58,7 @@ export default function Interest() {
           <h3>Expanded Expertise</h3>
           <p>
             AWS, Docker, GitHub, Frontend System Design, Express.js, Node.js, MongoDB, MERN Stack,
-            SQL, NOSQL, Socket.io, jQuery, Open to Monorepo architecture, Open Source Contribution.
+            SQL, NOSQL, Socket.io, jQuery, Open to Monorepo architecture, Open Source Contribution, Learning Web3
           </p>
         </div>
         {/* </ScrollAnimation> */}
