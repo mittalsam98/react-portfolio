@@ -147,3 +147,14 @@ ul {
     font-size: 16px;
   }
 }
+
+.templateTextBtn {
+  background-color: #238636;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 3px 20px;
+  font-weight: bold;
+  margin: 10px 0px;
+  border-radius: 8px;
+}

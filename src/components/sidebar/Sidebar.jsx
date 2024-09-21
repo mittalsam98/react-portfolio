@@ -120,12 +120,20 @@ export default function Sidebar() {
         style={{
           color: 'black',
           fontWeight: 'bold',
-          paddingTop: '30%'
+          paddingTop: '20%'
         }}
         className='tagtop'
       >
         Made with <a href='#' className='fa fa-heart heart'></a> by me.
       </div>
+      <button
+        onClick={() => {
+          window.open('https://github.com/mittalsam98/react-portfolio', '_blank');
+        }}
+        className='templateTextBtn'
+      >
+        Use this template
+      </button>
     </div>
   );
 }
