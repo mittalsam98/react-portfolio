@@ -58,7 +58,7 @@
   width: 40px;
   font-size: 20px;
   height: 40px;
-  background-color: #f9bf3f;
+  background-color: #FFD09B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -71,14 +71,14 @@
   float: left;
 }
 .timeline_icon_2 {
-  background: #de1db4;
+  background: #F7C5CC;
 }
 .timeline_icon_5 {
-  background: #00ffff;
+  background: #A1D6B2;
 }
 
 .timeline_icon_4 {
-  background: #ff0040;
+  background: #8AAAE5;
 }
 
 .timeline_entry_inner {
@@ -114,7 +114,7 @@
   font-size: 20px;
   font-family: 'Quicksand', Arial, sans-serif;
   font-weight: 500;
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
   color: #000;
 }
 .label h2 span {
@@ -125,9 +125,24 @@
   filter: alpha(opacity=40);
   font-size: 16px;
 }
+.subHeading{
+  font-size: 16px;
+  font-weight: 600;
+}
+.paraWithSubheading {
+  margin-top: 0.8em;
+  margin-bottom: 1.8em;
+  font-size: 15px !important;
+}
 
-.label p {
-  margin-bottom: 1.5em;
+.points{
+  margin-top: 8px;
+}
+
+
+.description {
+  font-size: 15px;
+  margin-bottom:5px ;
 }
 
 p > a {
@@ -157,4 +172,10 @@ a:hover {
   .container {
     padding: 0 42px 0 0;
   }
+}
+
+.flexTitle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

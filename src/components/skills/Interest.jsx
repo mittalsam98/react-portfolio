@@ -43,7 +43,7 @@ export default function Interest() {
           <p>
             Javascript/ Typescript, HTML/ CSS, ReactJs, Next.js, Prisma, tRPC, ZOD, Redux, Tailwind
             CSS, UI Libraries (React-Bootstrap, Mantine, MUI, Shadcn UI), Redux Toolkit, T3 Stack,
-            JEST, Unit Testing.
+            JEST, Drizzle, Unit Testing.
           </p>
         </div>
         {/* </ScrollAnimation>
