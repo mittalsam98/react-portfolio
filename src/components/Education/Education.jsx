@@ -35,21 +35,36 @@ class Education extends Component {
                       <MdWork />
                     </div>
                     <div className={classes.label}>
-                      <h2>
-                        Experience <span>July(2021)-Present</span>
-                      </h2>
-                      <p>
-                        I am currently working as <b>Software Developer Engineer</b> at{' '}
-                        <a target='_blank' href='https://www.springworks.in/'>
-                          <b>Springworks</b>
-                        </a>{' '}
-                        <i>
-                          (previously Springrole and Springworks is a HR technology startup that is
-                          building tools and products to simplify recruiting and help organizations
-                          engage and retain their employees)
-                        </i>{' '}
-                        and boosting my professional skills.
-                      </p>
+                      <h2>Experience</h2>
+                      <div className={classes.paraWithSubheading}>
+                        <div className={classes.subHeading}> - Unacademy Group (11/2024 - Present)</div>
+                        <div className={classes.points}>
+                          <div className={classes.description}>
+                            Quickly onboarded to ongoing projects, gaining expertise in the
+                            company’s tech stack and understanding the product architecture.
+                          </div>
+                          <div className={classes.description}>
+                            Contributed to socket chat feature enhancements and bug fixes, ensuring
+                            timely delivery of sprint objectives.
+                          </div>
+                        </div>
+                      </div>
+                      <div className={classes.paraWithSubheading}>
+                      <div className={classes.subHeading}>- Springworks (7/2021 - 10/2024) </div>
+                        <div className={classes.points}>
+                          <div className={classes.description}>
+                            Developed multiple core features, improving platform engagement by 20%,
+                            using React and server-caching queries.{' '}
+                          </div>
+                          <div className={classes.description}>
+                            Led multiple end-to-end projects (Springverify, SpringverifyDigital,
+                            Ex-Emp), with two projects built from the ground up, ensuring timely
+                            delivery and adherence to quality standards. Conducted detailed code
+                            reviews and provided suggestions for improvements. Integrated AI
+                            features to enhance UX.
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </article>
                   {/* </ScrollAnimation> */}
@@ -68,10 +83,10 @@ class Education extends Component {
                       <h2>
                         Undergraduation at SLIET <span>2017-2021</span>
                       </h2>
-                      <p>
+                      <div className={classes.description}>
                         I completed my undergraduation in CSE (Computer Science and Engineering)
                         from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.
-                      </p>
+                      </div >
                     </div>
                   </article>
                   {/* </ScrollAnimation> */}
@@ -90,10 +105,10 @@ class Education extends Component {
                       <h2>
                         Higher Education <span>2014-2016</span>
                       </h2>
-                      <p>
+                      <div className={classes.description}>
                         I have completed my higher education from HKIS with major subjects as
                         Physics,Chemistry & Maths with 85% merit in CBSE board.{' '}
-                      </p>
+                      </div>
                     </div>
                   </article>
                   {/* </ScrollAnimation> */}
@@ -111,7 +126,7 @@ class Education extends Component {
                     </div>
                     <div className={classes.label}>
                       <h2>Internship</h2>
-                      <p>Completed one month Internship in React Js with Internity Foundation</p>
+                      <div className={classes.description}>Completed one month Internship in React Js with Internity Foundation</div>
                     </div>
                     <div className={classes.timeline_entry_inner}>
                       <div className={classes.timeline_icon_3 || classes.color_none}></div>

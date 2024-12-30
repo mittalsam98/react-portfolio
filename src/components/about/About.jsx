@@ -19,14 +19,7 @@ class About extends Component {
         <div className={classes.About}>
           <p>
             Hi! My name is <b>SACHIN MITTAL</b>. I am a passionate developer having experience in{' '}
-            <b>Frontend</b> & <b>Mobile App </b> development complemented by backend expertise and
-            I'm currently working at{' '}
-            <b>
-              <a className={classes.link} target='_blank' href='https://www.springworks.in/'>
-                Springworks
-              </a>
-            </b>{' '}
-            as a <b>Software Developer Engineer.</b> I am much interested in developing new things
+            <b>Frontend development</b> & <b>Mobile App development </b>  complemented by backend expertise and I am much interested in developing new things
             which excite me a lot. :)
           </p>
           <p className={classes.br}>
