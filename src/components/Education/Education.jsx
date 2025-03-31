@@ -37,7 +37,7 @@ class Education extends Component {
                     <div className={classes.label}>
                       <h2>Experience</h2>
                       <div className={classes.paraWithSubheading}>
-                        <div className={classes.subHeading}> - Unacademy Group (11/2024 - Present)</div>
+                        <div className={classes.subHeading}> - Graphy <i>(Unacademy Group)</i> (11/2024 - Present)</div>
                         <div className={classes.points}>
                           <div className={classes.description}>
                             Quickly onboarded to ongoing projects, gaining expertise in the
