@@ -33,7 +33,7 @@ const webItem = [
     githubLink: 'https://github.com/mittalsam98/frontenddev'
   },
   {
-    link: 'https://www.profilee.info/',
+    link: 'https://www.profilee.site/',
     title: 'Profilee - An OS link in bio',
     techStack: 'Tech Stack: Next JS, Tailwind, Typescript, Prisma, AWS S3',
     desc: 'Profilee is an open source profile link bio page builder',
